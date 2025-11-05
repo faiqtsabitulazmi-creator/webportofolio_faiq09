@@ -1,0 +1,59 @@
+body{
+    background-color:darkseagreen;
+}#card-kalkulator{
+    background-color:antiquewhite;
+    width: 460px;
+    height: 400px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}#angka1{
+    margin: 10px;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid darkgreen;
+}#angka2{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid darkgreen;
+}#gaktau{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-right: 60px;
+   
+}#card-kalkulator p{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    color: darkgreen;
+}.gaktau button{    
+    margin-top: 50px;
+    margin-right: 10px;
+    background-color:darkseagreen;
+    
+   
+}.gaktau button{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+    margin-left: 30px;
+    margin-left: 20px;
+}.gaktau button:hover{
+    background-color: azure;
+}.gaktau button:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+
