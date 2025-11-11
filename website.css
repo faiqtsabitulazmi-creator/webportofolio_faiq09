@@ -366,7 +366,7 @@ display: none;
     }
     .menu-bars{
         max-width: 200px;
-        margin-left: 100px;
+        margin-left: 30px;
     }
   .hero {
     display: flex;
@@ -400,13 +400,13 @@ display: none;
 flex-direction: column;
     gap: 40px;
     padding: 30px 10px;
-    height: 700px;
+    height: 900px;
   }
   .skill{
 flex-direction: column;
     gap: 40px;
     padding: 30px 10px;
-    height:700px;
+    height:900px;
   }
   .works {
     flex-direction: column;
@@ -415,11 +415,14 @@ flex-direction: column;
     height: 700px;
     
   }
+  .about-box a{
+    margin-left: 5px;
+  }
 
   .about-box{
     width: 120px;
     height: 120px;
-    margin: 10px;
+    margin: 20px;
   }
   .skill-ku{
     display: flex;
@@ -448,6 +451,13 @@ flex-direction: column;
     height: 120px;
    
   }
+  .skill-box{
+    margin-bottom: 90px;
+   
+  }
+  .skill-box p{
+    margin-left: 20px;
+  }
   .works p{
     font-size: 15px;
   }
@@ -458,7 +468,7 @@ flex-direction: column;
 
   .about-content-tittle {
     font-size: 15px;   
-    margin-left: 90px; 
+    
   }
 
   .about-content-desc {
@@ -467,22 +477,21 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
   }
-  .about-content-section{
-    margin-left: 150px;
-  }
+
   .about-content{
   margin: 20px;
+  
   }
 
   .button {
     font-size: 14px;
     width: 150px;
     height: 40px;
-    margin-left: 150px;
+    
   }
 
   .sosial-media ul li a {
     font-size: 24px;
-    flex-direction: column;
+  
   }
 }
