@@ -362,7 +362,7 @@ display: none;
 
 @media screen and (max-width: 480px) {
     .header{
-        margin-right: 90px;
+        margin-right: 0px;
     }
     .menu-bars{
         max-width: 200px;
