@@ -374,7 +374,7 @@ display: none;
     gap: 20px;
     text-align: center;
     margin-top: 100px;
-    height: 550px;
+    height: 800px;
   }
 
   .hero-content p {
@@ -492,6 +492,7 @@ flex-direction: column;
 
   .sosial-media ul li a {
     font-size: 24px;
+    margin-bottom: 10px;
   
   }
 }
