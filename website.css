@@ -359,20 +359,130 @@ display: none;
 }
 }
 
-@media screen and (max-width: 480px){
 
-  .hero{
+@media screen and (max-width: 480px) {
+    .header{
+        margin-right: 90px;
+    }
+    .menu-bars{
+        max-width: 200px;
+        margin-left: 100px;
+    }
+  .hero {
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    gap: 50px;
-    margin-left: 20px;
+    gap: 20px;
+    text-align: center;
+    margin-top: 100px;
+    height: 550px;
+  }
 
+  .hero-content p {
+    font-size: 25px;
   }
-  .hero-content p{
-    font-size: 40px;
+
+  .hero-content button {
+    font-size: 14px;
+    padding: 10px 30px;
   }
-  
-}
+
+  .hero-image img {
+    width: 200px;
+    height: auto;
     
+    
+  }
+  .hero-image{
+    margin-top: 200px;
+  }
+
+  .About{
+flex-direction: column;
+    gap: 40px;
+    padding: 30px 10px;
+    height: 700px;
+  }
+  .skill{
+flex-direction: column;
+    gap: 40px;
+    padding: 30px 10px;
+    height:700px;
+  }
+  .works {
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px 10px;
+    height: 700px;
+    
+  }
+
+  .about-box{
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+  }
+  .skill-ku{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .skill-box{
+    width: 120px;
+    height: 120px;
+  }
+  .works-box {
+    width: 120px;
+    height: 120px;
+  }
+
+  .about-box img{
+    width: 120px;
+    height: 120px;
+  }
+  .skill-box img{
+    width: 120px;
+    height: 120px;
+  }
+  .works-box img {
+    width: 120px;
+    height: 120px;
+   
+  }
+  .works p{
+    font-size: 15px;
+  }
+  .works-skills{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-content-tittle {
+    font-size: 15px;   
+    margin-left: 90px; 
+  }
+
+  .about-content-desc {
+    font-size: 15px;
+    
+    display: flex;
+    flex-direction: column;
+  }
+  .about-content-section{
+    margin-left: 150px;
+  }
+  .about-content{
+  margin: 20px;
+  }
+
+  .button {
+    font-size: 14px;
+    width: 150px;
+    height: 40px;
+    margin-left: 150px;
+  }
+
+  .sosial-media ul li a {
+    font-size: 24px;
+    flex-direction: column;
+  }
+}
